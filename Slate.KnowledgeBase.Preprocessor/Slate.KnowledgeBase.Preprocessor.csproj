@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="HtmlSourcePage.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\manifest.xml" />
+    <None Remove="Assets\Pages\index-maincontent.html" />
+    <None Remove="Assets\Pages\licence-maincontent.html" />
+    <None Remove="Assets\Templates\page-template.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\manifest.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pages\index-maincontent.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pages\licence-maincontent.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Templates\page-template.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MariGold.HtmlParser" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>

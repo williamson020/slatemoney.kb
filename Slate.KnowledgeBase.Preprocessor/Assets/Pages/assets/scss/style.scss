@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------------------------------
+
+    Item Name: Guidex - Online Documentation HTML Template.
+    Author: ashishmaraviya
+    Version: 3.1
+    Copyright 2024
+
+-----------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------
+    Included CSS INDEX
+-----------------------------------------------------------------------------------
+
+01. Typography
+02. Components
+    - Common
+    - Sidebar
+    - Header
+    - Tools-sidebar
+
+03. Layout 
+    - Cards
+
+-----------------------------------------------------------------------------------*/
+
+// Typography
+@import "base/_typography";
+
+// Utilities
+@import "utilities/_variables";
+@import "utilities/_mixins";
+
+// Components
+@import "components/_common";
+@import "components/_sidebar";
+@import "components/_tools-sidebar";
+@import "components/_header";
+
+// Layouts
+@import "layouts/_cards";
+

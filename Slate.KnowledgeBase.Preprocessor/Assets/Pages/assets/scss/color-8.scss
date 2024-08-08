@@ -1,0 +1,53 @@
+/* color-8 */
+$color-8: #1e2531;
+$black: #000;
+$white: #fff;
+
+.gx-btn-primary,
+.gx-primary-btn {
+    background-color: $color-8;
+    border: 1px solid $color-8;
+    &:hover {
+        border: 1px solid $color-8;
+    }
+}
+
+.gx-topic-list {
+    ul {
+        li {
+            a {
+                &:hover {
+                    color: $color-8;
+                    border: 1px solid $color-8;
+                }
+            }
+            .active {
+                border: 1px solid $color-8;
+                color: $color-8;
+            }
+        }
+    }
+}
+
+.gx-main-structure {
+    i {
+        color: $color-8;
+    }
+    ul {
+        li {
+            a {
+                i {
+                    color: $color-8;
+                }
+            }
+            i {
+                color: $color-8;
+            }
+        }
+    }
+}
+
+b {
+    color: $color-8;
+}
+

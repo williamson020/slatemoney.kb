@@ -1,0 +1,34 @@
+/* color-5 */
+.gx-btn-primary,
+.gx-primary-btn {
+  background-color: #f44336;
+  border: 1px solid #f44336;
+}
+.gx-btn-primary:hover,
+.gx-primary-btn:hover {
+  border: 1px solid #f44336;
+}
+
+.gx-topic-list ul li a:hover {
+  color: #f44336;
+  border: 1px solid #f44336;
+}
+.gx-topic-list ul li .active {
+  border: 1px solid #f44336;
+  color: #f44336;
+}
+
+.gx-main-structure i {
+  color: #f44336;
+}
+.gx-main-structure ul li a i {
+  color: #f44336;
+}
+.gx-main-structure ul li i {
+  color: #f44336;
+}
+
+b {
+  color: #f44336;
+}
+/*# sourceMappingURL=color-5.css.map */

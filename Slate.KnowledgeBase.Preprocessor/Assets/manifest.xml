@@ -1,0 +1,38 @@
+﻿<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Page src="index-maincontent.html" target="index.html" title="SlateMoney - Knowledge Base"   openinbrowser="true">
+    <Topic href="#gx_intro" legend="Introduction"/>
+    <Topic href="#gx_signup" legend="Registration"/>
+    <Topic href="#gx_installation" legend="Installation"/>
+  </Page>
+
+  <Page src="licence-maincontent.html" target="licence.html" title="SlateMoney - Licensing">
+    <Topic href="#gx_types_of_licence" legend="Types"/>
+    <Topic href="#gx_open_banking_user" legend="Open Banking User" subtopic="true"/>
+    <Topic href="#gx_offline_user" legend="Offline User" subtopic="true"/>
+    <Topic href="#gx_licence_features" legend="Features"/>
+    <Topic href="#gx_licence_cost" legend="Cost"/>
+  </Page>
+
+
+  <Sidebar>
+
+    <Entry class="dropitem"  legend="Getting Started" icon="ri-dashboard-3-line" >
+      <Navlink legend="Introduction" href="index.html#gx_intro"/>
+      <Navlink legend="User sign-up" href="index.html#gx_signup"/>
+      <Navlink legend="Installation" href="index.html#gx_installation"/>
+    </Entry>
+
+    <Entry class="dropitem"  legend="Pricing" icon="ri-price-tag-3-line">
+      <Navlink legend="Licence Types" href="licence.html#gx_types_of_licence"/>
+      <Navlink legend="Licence Features" href="licence.html#gx_licence_features"/>
+      <Navlink legend="Licence Cost" href="licence.html#gx_licence_cost"/>
+    </Entry>
+
+
+    <Entry  class="separator"  legend="Desktop User Guide"/>
+
+
+  </Sidebar>
+
+</Manifest>

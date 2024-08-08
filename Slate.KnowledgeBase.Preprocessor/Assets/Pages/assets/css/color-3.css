@@ -1,0 +1,33 @@
+/* color-3 */
+.gx-btn-primary,
+.gx-primary-btn {
+  background-color: #32dbe2;
+  border: 1px solid #32dbe2;
+}
+.gx-btn-primary:hover,
+.gx-primary-btn:hover {
+  border: 1px solid #32dbe2;
+}
+
+.gx-topic-list ul li a:hover {
+  color: #32dbe2;
+}
+.gx-topic-list ul li .active {
+  border: 1px solid #32dbe2;
+  color: #32dbe2;
+}
+
+.gx-main-structure i {
+  color: #32dbe2;
+}
+.gx-main-structure ul li a i {
+  color: #32dbe2;
+}
+.gx-main-structure ul li i {
+  color: #32dbe2;
+}
+
+b {
+  color: #32dbe2;
+}
+/*# sourceMappingURL=color-3.css.map */

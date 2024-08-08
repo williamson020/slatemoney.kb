@@ -1,0 +1,53 @@
+/* color-4 */
+$color-4: #3f51b5;
+$black: #000;
+$white: #fff;
+
+.gx-btn-primary,
+.gx-primary-btn {
+    background-color: $color-4;
+    border: 1px solid $color-4;
+    &:hover {
+        border: 1px solid $color-4;
+    }
+}
+
+.gx-topic-list {
+    ul {
+        li {
+            a {
+                &:hover {
+                    color: $color-4;
+                    border: 1px solid $color-4;
+                }
+            }
+            .active {
+                border: 1px solid $color-4;
+                color: $color-4;
+            }
+        }
+    }
+}
+
+.gx-main-structure {
+    i {
+        color: $color-4;
+    }
+    ul {
+        li {
+            a {
+                i {
+                    color: $color-4;
+                }
+            }
+            i {
+                color: $color-4;
+            }
+        }
+    }
+}
+
+b {
+    color: $color-4;
+}
+

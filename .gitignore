@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Slate.KnowledgeBase.Preprocessor/.vs/Slate.KnowledgeBase.Preprocessor/FileContentIndex
+/Slate.KnowledgeBase.Preprocessor/obj
