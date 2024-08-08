@@ -65,6 +65,15 @@ e.g.
 
 ====== Pre-processor ==========
 
+Command Line Argument:
+pass folder of staging area where output files will be generated:
+e.g. C:\temp\Slate.KnowledgeBase.Preprocessor\Staging
+
+* Staging folder should not be under source control !
+* Batch copy the contents of staging to the live site help.slatemoney.io
+
+
+
 Loads and parses manifest.xml
 
 Generates the common side bar HTML.

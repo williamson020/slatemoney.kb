@@ -2,7 +2,7 @@
   "profiles": {
     "Slate.KnowledgeBase.Preprocessor": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\make-\\source\\repos\\williamson020\\slatemoney.io\\Slate.Kb"
+      "commandLineArgs": "C:\\temp\\Slate.KnowledgeBase.Preprocessor\\Staging"
     }
   }
 }
