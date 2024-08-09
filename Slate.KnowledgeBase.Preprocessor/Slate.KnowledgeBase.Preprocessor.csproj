@@ -13,8 +13,12 @@
 
   <ItemGroup>
     <None Remove="Assets\manifest.xml" />
-    <None Remove="Assets\Pages\index-maincontent.html" />
-    <None Remove="Assets\Pages\licence-maincontent.html" />
+    <None Remove="Assets\Pages\account-management-content.html" />
+    <None Remove="Assets\Pages\desktop-home-content.html" />
+    <None Remove="Assets\Pages\index-content.html" />
+    <None Remove="Assets\Pages\kb404-content.html" />
+    <None Remove="Assets\Pages\licence-content.html" />
+    <None Remove="Assets\Pages\trackers-content.html" />
     <None Remove="Assets\Templates\page-template.html" />
   </ItemGroup>
 
@@ -22,10 +26,22 @@
     <Content Include="Assets\manifest.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Pages\index-maincontent.html">
+    <Content Include="Assets\Pages\account-management-content.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Pages\licence-maincontent.html">
+    <Content Include="Assets\Pages\desktop-home-content.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pages\index-content.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pages\kb404-content.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pages\licence-content.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pages\trackers-content.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Templates\page-template.html">

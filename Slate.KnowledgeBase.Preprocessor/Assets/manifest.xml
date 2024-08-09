@@ -1,12 +1,16 @@
 ﻿<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Page src="index-maincontent.html" target="index.html" title="SlateMoney - Knowledge Base"   openinbrowser="true">
-    <Topic href="#gx_intro" legend="Introduction"/>
+
+  <!--INDEX.HTML-->
+  <Page src="index-content.html" target="index.html" title="SlateMoney - Knowledge Base"   openinbrowser="true">
+    <Topic href="#gx_intro" legend="Introduction" id="mc1"/>
     <Topic href="#gx_signup" legend="Registration"/>
     <Topic href="#gx_installation" legend="Installation"/>
   </Page>
 
-  <Page src="licence-maincontent.html" target="licence.html" title="SlateMoney - Licensing">
+
+  <!--LICENCE.HTML-->
+  <Page src="licence-content.html" target="licence.html" title="SlateMoney - Licensing">
     <Topic href="#gx_types_of_licence" legend="Types"/>
     <Topic href="#gx_open_banking_user" legend="Open Banking User" subtopic="true"/>
     <Topic href="#gx_offline_user" legend="Offline User" subtopic="true"/>
@@ -15,14 +19,53 @@
   </Page>
 
 
+
+  <!--DESKTOP-HOME.HTML-->
+  <Page src="desktop-home-content.html" target="desktop-home.html" title="SlateMoney - Home">
+
+    <Topic href="#gx_hub" legend="Hub"/>
+    
+    <!--subtopics for Hub-->
+    <Topic href="#gx_adding_new_account_ob" legend="Add Open Banking Account" subtopic="true"/>
+    <Topic href="#gx_adding_new_account_ol" legend="Add Offline  Account" subtopic="true"/>
+
+    <Topic href="#gx_accounts" legend="Accounts"/>
+    <Topic href="#gx_rates" legend="Rates"/>
+    
+  </Page>
+
+  <!--TRACKERS.HTML-->
+  <Page src="trackers-content.html" target="trackers.html" title="SlateMoney - Trackers">
+
+    <Topic href="#gx_trackers_intro" legend="About"/>
+    <Topic href="#gx_trackers_home" legend="Home"/>
+    <Topic href="#gx_trackers_drilldown" legend="Drilldown"/>
+  
+  </Page>
+
+  <!-- ACCOUNT-MANAGEMENT.HTML-->
+  <Page src="account-management-content.html" target="account-management.html" title="SlateMoney - Account Management">
+    <Topic href="#gx_security" legend="Security"/>
+  </Page>
+
+
+  <!-- KB404.HTML  NOTE THIS PAGE NOT INDEXED IN THE SIDEBAR-->
+  <Page src="kb404-content.html" target="kb404.html" title="SlateMoney - 404">
+   
+  </Page>
+  
+
+
   <Sidebar>
 
+    <!--FOR INDEX.HTML-->
     <Entry class="dropitem"  legend="Getting Started" icon="ri-dashboard-3-line" >
       <Navlink legend="Introduction" href="index.html#gx_intro"/>
       <Navlink legend="User sign-up" href="index.html#gx_signup"/>
       <Navlink legend="Installation" href="index.html#gx_installation"/>
     </Entry>
 
+    <!--FOR LICENCE.HTML-->
     <Entry class="dropitem"  legend="Pricing" icon="ri-price-tag-3-line">
       <Navlink legend="Licence Types" href="licence.html#gx_types_of_licence"/>
       <Navlink legend="Licence Features" href="licence.html#gx_licence_features"/>
@@ -32,6 +75,26 @@
 
     <Entry  class="separator"  legend="Desktop User Guide"/>
 
+    <!--FOR DESKTOP-HOME.HTML-->
+    <Entry class="dropitem"  legend="Home" icon="ri-home-3-fill">
+      <Navlink legend="Hub" href="desktop-home.html#gx_hub"/>
+      <Navlink legend="Accounts" href="desktop-home.html#gx_accounts"/>
+      <Navlink legend="Rates" href="desktop-home.html#gx_rates"/>
+    </Entry>
+
+   
+    <!--FOR ACCOUNT-MANAGEMENT.HTML-->
+    <Entry class="dropitem"  legend="Account Management" icon="ri-settings-line">
+      <Navlink legend="Security" href="account-management.html#gx_security"/>
+    </Entry>
+
+
+    <!--FOR TRACKERS.HTML-->
+    <Entry class="dropitem"  legend="Trackers" icon="ri-funds-fill">
+      <Navlink legend="About" href="trackers.html#gx_trackers_intro"/>
+      <Navlink legend="Trackers Home" href="trackers.html#gx_trackers_home"/>
+      <Navlink legend="Trackers Drilldown" href="trackers.html#gx_trackers_drilldown"/>
+    </Entry>
 
   </Sidebar>
 

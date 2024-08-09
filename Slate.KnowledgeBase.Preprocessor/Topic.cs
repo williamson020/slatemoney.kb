@@ -16,6 +16,9 @@ public class Topic
 
     [XmlIgnore]
     public string ClassNames => Subtopic == "true" ? "sub-topic topic" : "topic";
+
+    public void Dump(string page) => Console.WriteLine($"{page}{Href}");
+    
 }
 
 

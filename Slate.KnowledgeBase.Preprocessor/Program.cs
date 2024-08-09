@@ -51,6 +51,12 @@ internal class Program
             {
                 ProcessHelper.OpenUrl(Path.Combine(outputDir,manifest.LaunchPage.TargetFileName ));
             }
+
+
+            //Output  all anchors to console
+            manifest.DumpAnchors();
+
+
         }
         catch (Exception e)
         {

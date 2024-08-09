@@ -101,6 +101,8 @@ public class Manifest
          */
     }
 
+    public void DumpAnchors() =>  Pages.ForEach(p=> p.DumpTopicAnchors());
+    
 }
 
 

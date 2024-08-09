@@ -170,5 +170,10 @@ internal static class XmlUtil
     public static string Title(string legend) => $"<title>{legend}</title>";
 
 
+    public static string AsComment(string token) => $"<!-- {token} -->";
+
+    public static string Comment(string comment) => AsComment(comment);
+
+
 
 }
