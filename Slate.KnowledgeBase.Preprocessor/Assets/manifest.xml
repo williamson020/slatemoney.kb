@@ -3,7 +3,7 @@
 
   <!--INDEX.HTML-->
   <Page src="index-content.html" target="index.html" title="SlateMoney - Knowledge Base"   openinbrowser="true">
-    <Topic href="#gx_intro" legend="Introduction" id="mc1"/>
+    <Topic href="#gx_intro" legend="Introduction" />
     <Topic href="#gx_signup" legend="Registration"/>
     <Topic href="#gx_installation" legend="Installation"/>
   </Page>
@@ -23,34 +23,36 @@
   <!--DESKTOP-HOME.HTML-->
   <Page src="desktop-home-content.html" target="desktop-home.html" title="SlateMoney - Home">
 
-    <Topic href="#gx_hub" legend="Hub"/>
+    <Topic href="#gx_hub" legend="Hub" exref="dg.home.hub.getstarted"/>
     
     <!--subtopics for Hub-->
     <Topic href="#gx_adding_new_account_ob" legend="Add Open Banking Account" subtopic="true"/>
     <Topic href="#gx_adding_new_account_ol" legend="Add Offline  Account" subtopic="true"/>
 
-    <Topic href="#gx_accounts" legend="Accounts"/>
-    <Topic href="#gx_rates" legend="Rates"/>
+    <Topic href="#gx_accounts" legend="Accounts"  exref="dg.home.accounts"/>
+    
+    
+    <Topic href="#gx_rates" legend="Rates" exref="dg.home.rates"/>
     
   </Page>
 
   <!--TRACKERS.HTML-->
   <Page src="trackers-content.html" target="trackers.html" title="SlateMoney - Trackers">
 
-    <Topic href="#gx_trackers_intro" legend="About"/>
+    <Topic href="#gx_trackers_intro" legend="About"  exref="dg.trackers.about"/>
     <Topic href="#gx_trackers_home" legend="Home"/>
-    <Topic href="#gx_trackers_drilldown" legend="Drilldown"/>
+    <Topic href="#gx_trackers_drilldown" legend="Drilldown" exref="dg.trackers.drilldown"/>
   
   </Page>
 
   <!-- ACCOUNT-MANAGEMENT.HTML-->
   <Page src="account-management-content.html" target="account-management.html" title="SlateMoney - Account Management">
-    <Topic href="#gx_security" legend="Security"/>
+    <Topic href="#gx_security" legend="Security" exref="dg.acctmgmt.security" />
   </Page>
 
 
   <!-- KB404.HTML  NOTE THIS PAGE NOT INDEXED IN THE SIDEBAR-->
-  <Page src="kb404-content.html" target="kb404.html" title="SlateMoney - 404">
+  <Page src="kb404-content.html" target="kb404.html" title="SlateMoney - 404" exref="dg.404.notfound">
    
   </Page>
   

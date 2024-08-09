@@ -38,6 +38,13 @@ public class Page
         get; set;
     }
 
+    /// <summary>
+    /// External kb id (handle) used to reference this page
+    /// </summary>
+
+    [XmlAttribute("exref")]  
+    public string ExternalReference { get; set; }
+
     #endregion
 
     public override string ToString() => $"{SourceFileName} has target {TargetFileName}";
@@ -217,6 +224,18 @@ public class Page
     }
 
     public void DumpTopicAnchors() => Topics.ForEach( t=> t.Dump(TargetFileName) );
+
+
+    public void DumpExRefs()
+    {
+	    if (!string.IsNullOrEmpty(ExternalReference))
+	    {
+            Console.WriteLine(ExRef.Make(TargetFileName,null,ExternalReference));
+	    }
+
+	    Topics.ForEach( t=> t.DumpExRef(TargetFileName) );
+
+    }
     
 }
 

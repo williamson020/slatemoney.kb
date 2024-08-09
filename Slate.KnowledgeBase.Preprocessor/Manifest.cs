@@ -102,6 +102,9 @@ public class Manifest
     }
 
     public void DumpAnchors() =>  Pages.ForEach(p=> p.DumpTopicAnchors());
+    public void DumpExRefs() =>  Pages.ForEach(p=> p.DumpExRefs());
+
+
     
 }
 

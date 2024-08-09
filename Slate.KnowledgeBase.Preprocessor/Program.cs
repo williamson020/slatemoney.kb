@@ -56,6 +56,8 @@ internal class Program
             //Output  all anchors to console
             manifest.DumpAnchors();
 
+            //Output insert statements for database (server side) 
+            manifest.DumpExRefs();
 
         }
         catch (Exception e)
@@ -67,15 +69,6 @@ internal class Program
 
 
    
-
-    private static void GenerateTargetPage(Page helpPage, string sideBar)
-    {
-
-        
-       
-
-
-    }
 
    
 }
