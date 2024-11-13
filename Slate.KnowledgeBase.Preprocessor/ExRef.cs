@@ -2,7 +2,7 @@
 
 public static class ExRef
 {
-	private static int _exRefId = 0;
+	private static int _exRefId = 1;
 
 	public static string Make(string pageName, string anchorName, string exRefHandle)
 	{
